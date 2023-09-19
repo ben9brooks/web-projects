@@ -1,1 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link rel="stylesheet" href="./resources/css/styles.css"></link>
+  </head>
+  <body>
+    <div class="site-container">
+      <!-- Header-->
+      <div class="header">
+        <h1>My Blog Site</h1>
+      </div>
+      <!-- Landing page -->
+      <div class="container">
+        <div class="intro">
+          <div class="flex-grid">
 
+            <div class="col-3">
+              <div class="featured-item">
+                <div class="thumbnail">
+                    <a href="./pages/space.html">
+                        <img src="./resources/images/stones.jpg"/>
+                    </a>
+                </div>
+                <a href="./pages/space.html">
+                    <h4>Meditation & Mindfulness</h4>
+                </a>
+                <a href="./pages/space.html">
+                    <p>How to find the calm in the storm.</p>
+                </a>
+              </div>
+              <div class="featured-item">
+                <div class="thumbnail">
+                    <a href="./pages/space.html" >
+                        <img src="./resources/images/dorm.jpg"/>
+                    </a>
+                </div>
+                <a href="./pages/space.html" >
+                    <h4>Life in College</h4>
+                </a>
+                <a href="./pages/space.html" >
+                    <p>A new lifestyle.</p>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-6">
+              <div class="featured-item">
+                <div class="thumbnail">
+                    <a href="./pages/space.html">
+                        <img src="./resources/images/valley2.jpg" />
+                    </a>
+                </div>
+                <a href="./pages/space.html">
+                    <h4>Stories from the Valley</h4>
+                </a>
+                <a href="./pages/space.html">
+                    <p>The highs and the lows.</p>
+                </a>
+              </div>
+              <div class="featured-item">
+                <div class="thumbnail">
+                    <a href="./pages/space.html">
+                        <img src="./resources/images/clouds.jpg" />
+                    </a>
+                </div>
+                <a href="./pages/space.html">
+                    <h4>Clouds</h4>
+                </a>
+                <a href="./pages/space.html">
+                    <p>What comes must go.</p>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="featured-item">
+                <div class="thumbnail">
+                    <a href="./pages/space.html" />
+                        <img src="./resources/images/garden.jpg" />
+                    </a>
+                </div>
+                <a href="./pages/space.html" />
+                    <h4>Gardens & Nature</h4>
+                </a>
+                <a href="./pages/space.html" />
+                    <p>Finding what's real.</p>
+                </a>
+                
+              </div>
+              <div class="featured-item">
+                <div class="thumbnail">
+                    <a href="./pages/space.html">
+                        <img src="./resources/images/space.jpg"/>
+                    </a>
+                </div>
+                <a href="./pages/space.html">
+                    <h4>Space & Beyond</h4>
+                </a>
+                <a href="./pages/space.html">
+                    <p>Providing perspective to our world.</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Contact Section-->
+      <div class="bkg-div">
+        <br />
+        <div class="contact-page">
+            <h3>Contact Me</h3>
+            <p>Follow me on these platforms for more content!</p>
+            <div class="contact-page-icons">
+                <a href="https://www.facebook.com">
+                    <img id="facebook-img" src="./resources/icons/facebook-50.png" />
+                </a>
+                <a href="https://www.instagram.com">
+                    <img id="instagram-img" src="./resources/icons/instagram-50.png" />
+                </a>
+                <a href="https://www.twitter.com">
+                    <img id="twitter-img" src="./resources/icons/twitter-50.png" />
+                </a>
+                <a href="https://www.youtube.com">
+                    <img id="youtube-img" src="./resources/icons/youtube-50.png" />
+                </a>
+                <a href="https://www.linkedin.com">
+                    <img id="linkedin-img" src="./resources/icons/linkedin-50.png" />
+                </a>
+                <a href="https://www.github.com">
+                    <img id="github-img" src="./resources/icons/github-50.png" />
+                </a>
+            </div>
+        </div>
+      </div>
+      
+    </div>
+  </body>
+  <script>
+    const facebookImage = document.getElementById("facebook-img");
+    facebookImage.addEventListener("mouseover", function() {
+      facebookImage.src = "./resources/icons/facebook-50-filled.png"
+    });
+    facebookImage.addEventListener("mouseout", function() {
+      facebookImage.src = "./resources/icons/facebook-50.png"
+    });
+  </script>
+  <script>
+    const instagramImage = document.getElementById("instagram-img");
+    instagramImage.addEventListener("mouseover", function() {
+      instagramImage.src = "./resources/icons/instagram-50-filled.png"
+    });
+    instagramImage.addEventListener("mouseout", function() {
+      instagramImage.src = "./resources/icons/instagram-50.png"
+    });
+  </script>
+  <script>
+    const twitterImage = document.getElementById("twitter-img");
+    twitterImage.addEventListener("mouseover", function() {
+      twitterImage.src = "./resources/icons/twitter-50-filled.png"
+    });
+    twitterImage.addEventListener("mouseout", function() {
+      twitterImage.src = "./resources/icons/twitter-50.png"
+    });
+  </script>
+  <script>
+    const youtubeImage = document.getElementById("youtube-img");
+    youtubeImage.addEventListener("mouseover", function() {
+      youtubeImage.src = "./resources/icons/youtube-50-filled.png"
+    });
+    youtubeImage.addEventListener("mouseout", function() {
+      youtubeImage.src = "./resources/icons/youtube-50.png"
+    });
+  </script>
+  <script>
+    const linkedinImage = document.getElementById("linkedin-img");
+    linkedinImage.addEventListener("mouseover", function() {
+      linkedinImage.src = "./resources/icons/linkedin-50-filled.png"
+    });
+    linkedinImage.addEventListener("mouseout", function() {
+      linkedinImage.src = "./resources/icons/linkedin-50.png"
+    });
+  </script>
+  <script>
+    const githubImage = document.getElementById("github-img");
+    githubImage.addEventListener("mouseover", function() {
+      githubImage.src = "./resources/icons/github-50-filled.png"
+    });
+    githubImage.addEventListener("mouseout", function() {
+      githubImage.src = "./resources/icons/github-50.png"
+    });
+  </script>
+</html>
